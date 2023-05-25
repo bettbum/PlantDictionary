@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1017686933203-fanb71f6nbrkmgmblr26tksg2n9r4ol5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1017686933203-fanb71f6nbrkmgmblr26tksg2n9r4ol5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyASlovh41XHj-rT1KZX5ICjMCecRFssMZ0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1017686933203</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>thihongphucnguyen.HousePlant</string>
+	<key>PROJECT_ID</key>
+	<string>houseplant-89add</string>
+	<key>STORAGE_BUCKET</key>
+	<string>houseplant-89add.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1017686933203:ios:0dd141cc33be3188639e26</string>
+</dict>
+</plist>

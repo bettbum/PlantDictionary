@@ -13,6 +13,33 @@
 		3B2DCB8C29D227A700D57509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2DCB8A29D227A700D57509 /* Main.storyboard */; };
 		3B2DCB8E29D227A900D57509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2DCB8D29D227A900D57509 /* Assets.xcassets */; };
 		3B2DCB9129D227A900D57509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2DCB8F29D227A900D57509 /* LaunchScreen.storyboard */; };
+		3B2DCB9F29D2288C00D57509 /* UIView_addSubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCB9D29D2288B00D57509 /* UIView_addSubViews.swift */; };
+		3B2DCBA029D2288C00D57509 /* UIView_enableTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCB9E29D2288B00D57509 /* UIView_enableTapGestureRecognizer.swift */; };
+		3B2DCBA229D3131F00D57509 /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBA129D3131F00D57509 /* PlantTableViewCell.swift */; };
+		3B2DCBA529D3150500D57509 /* PlantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBA429D3150500D57509 /* PlantModel.swift */; };
+		3B2DCBA729D366EB00D57509 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBA629D366EB00D57509 /* API.swift */; };
+		3B2DCBA929D3674600D57509 /* PlantAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBA829D3674600D57509 /* PlantAPI.swift */; };
+		3B2DCBAB29D36F6200D57509 /* UIImageView_fetchImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBAA29D36F6200D57509 /* UIImageView_fetchImageFromURL.swift */; };
+		3B2DCBB129D38B7800D57509 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBB029D38B7800D57509 /* Logo.swift */; };
+		3B2DCBB829D5EB0400D57509 /* UIPageNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBB729D5EB0400D57509 /* UIPageNavigation.swift */; };
+		3B2DCBBC29D607B500D57509 /* PlantDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBBB29D607B500D57509 /* PlantDetailController.swift */; };
+		3B2DCBC029D6081900D57509 /* UIPlantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBBF29D6081900D57509 /* UIPlantDetail.swift */; };
+		3B2DCBC229DB012100D57509 /* UILoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBC129DB012100D57509 /* UILoginForm.swift */; };
+		3B2DCBC429DB0FED00D57509 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBC329DB0FED00D57509 /* LoginController.swift */; };
+		3B2DCBC629DB0FFB00D57509 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBC529DB0FFB00D57509 /* SignUpController.swift */; };
+		3B2DCBC829DB6EC400D57509 /* UIUtilitiesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBC729DB6EC400D57509 /* UIUtilitiesBar.swift */; };
+		3B2DCBD629DC618200D57509 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3B2DCBD529DC618200D57509 /* FirebaseAuth */; };
+		3B2DCBD829DC618200D57509 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3B2DCBD729DC618200D57509 /* FirebaseDatabase */; };
+		3B2DCBDA29DC618200D57509 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3B2DCBD929DC618200D57509 /* FirebaseDatabaseSwift */; };
+		3B2DCBE129DC65F500D57509 /* UISignUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBE029DC65F500D57509 /* UISignUpForm.swift */; };
+		3B2DCBE329DC779E00D57509 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B2DCBE229DC779E00D57509 /* GoogleService-Info.plist */; };
+		3B2DCBE529DC8B0A00D57509 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBE429DC8B0A00D57509 /* Toast.swift */; };
+		3B2DCBE929DCB6F400D57509 /* DatabaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBE829DCB6F400D57509 /* DatabaseManagement.swift */; };
+		3B2DCBEB29DE013F00D57509 /* PlantsSavedControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBEA29DE013F00D57509 /* PlantsSavedControllerViewController.swift */; };
+		3B2DCBED29DEFFA400D57509 /* UIPlantDetailUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBEC29DEFFA400D57509 /* UIPlantDetailUtility.swift */; };
+		3B2DCBEF29E04D9C00D57509 /* UIButton_newButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBEE29E04D9C00D57509 /* UIButton_newButton.swift */; };
+		3B2DCBF129E04F3400D57509 /* UILabel_newLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBF029E04F3400D57509 /* UILabel_newLabel.swift */; };
+		3B2DCBF329E051F900D57509 /* UITextField_newTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCBF229E051F900D57509 /* UITextField_newTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +51,30 @@
 		3B2DCB8D29D227A900D57509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B2DCB9029D227A900D57509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B2DCB9229D227A900D57509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2DCB9D29D2288B00D57509 /* UIView_addSubViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_addSubViews.swift; sourceTree = "<group>"; };
+		3B2DCB9E29D2288B00D57509 /* UIView_enableTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_enableTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		3B2DCBA129D3131F00D57509 /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
+		3B2DCBA429D3150500D57509 /* PlantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantModel.swift; sourceTree = "<group>"; };
+		3B2DCBA629D366EB00D57509 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		3B2DCBA829D3674600D57509 /* PlantAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantAPI.swift; sourceTree = "<group>"; };
+		3B2DCBAA29D36F6200D57509 /* UIImageView_fetchImageFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView_fetchImageFromURL.swift; sourceTree = "<group>"; };
+		3B2DCBB029D38B7800D57509 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		3B2DCBB729D5EB0400D57509 /* UIPageNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageNavigation.swift; sourceTree = "<group>"; };
+		3B2DCBBB29D607B500D57509 /* PlantDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailController.swift; sourceTree = "<group>"; };
+		3B2DCBBF29D6081900D57509 /* UIPlantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPlantDetail.swift; sourceTree = "<group>"; };
+		3B2DCBC129DB012100D57509 /* UILoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILoginForm.swift; sourceTree = "<group>"; };
+		3B2DCBC329DB0FED00D57509 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		3B2DCBC529DB0FFB00D57509 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		3B2DCBC729DB6EC400D57509 /* UIUtilitiesBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilitiesBar.swift; sourceTree = "<group>"; };
+		3B2DCBE029DC65F500D57509 /* UISignUpForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISignUpForm.swift; sourceTree = "<group>"; };
+		3B2DCBE229DC779E00D57509 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3B2DCBE429DC8B0A00D57509 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		3B2DCBE829DCB6F400D57509 /* DatabaseManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManagement.swift; sourceTree = "<group>"; };
+		3B2DCBEA29DE013F00D57509 /* PlantsSavedControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsSavedControllerViewController.swift; sourceTree = "<group>"; };
+		3B2DCBEC29DEFFA400D57509 /* UIPlantDetailUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPlantDetailUtility.swift; sourceTree = "<group>"; };
+		3B2DCBEE29E04D9C00D57509 /* UIButton_newButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton_newButton.swift; sourceTree = "<group>"; };
+		3B2DCBF029E04F3400D57509 /* UILabel_newLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel_newLabel.swift; sourceTree = "<group>"; };
+		3B2DCBF229E051F900D57509 /* UITextField_newTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField_newTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2DCBDA29DC618200D57509 /* FirebaseDatabaseSwift in Frameworks */,
+				3B2DCBD829DC618200D57509 /* FirebaseDatabase in Frameworks */,
+				3B2DCBD629DC618200D57509 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +94,7 @@
 		3B2DCB7829D227A700D57509 = {
 			isa = PBXGroup;
 			children = (
+				3B2DCBE229DC779E00D57509 /* GoogleService-Info.plist */,
 				3B2DCB8329D227A700D57509 /* HousePlant */,
 				3B2DCB8229D227A700D57509 /* Products */,
 			);
@@ -56,15 +111,94 @@
 		3B2DCB8329D227A700D57509 /* HousePlant */ = {
 			isa = PBXGroup;
 			children = (
+				3B2DCBA329D314ED00D57509 /* Model */,
+				3B2DCB9B29D2281A00D57509 /* Service */,
+				3B2DCB9A29D2280C00D57509 /* Extension */,
+				3B2DCB9929D2280400D57509 /* Controller */,
+				3B2DCB9829D227F400D57509 /* CustomizedUI */,
 				3B2DCB8429D227A700D57509 /* AppDelegate.swift */,
 				3B2DCB8629D227A700D57509 /* SceneDelegate.swift */,
-				3B2DCB8829D227A700D57509 /* ViewController.swift */,
 				3B2DCB8A29D227A700D57509 /* Main.storyboard */,
 				3B2DCB8D29D227A900D57509 /* Assets.xcassets */,
 				3B2DCB8F29D227A900D57509 /* LaunchScreen.storyboard */,
 				3B2DCB9229D227A900D57509 /* Info.plist */,
 			);
 			path = HousePlant;
+			sourceTree = "<group>";
+		};
+		3B2DCB9829D227F400D57509 /* CustomizedUI */ = {
+			isa = PBXGroup;
+			children = (
+				3B2DCBE429DC8B0A00D57509 /* Toast.swift */,
+				3B2DCBA129D3131F00D57509 /* PlantTableViewCell.swift */,
+				3B2DCBB029D38B7800D57509 /* Logo.swift */,
+				3B2DCBB729D5EB0400D57509 /* UIPageNavigation.swift */,
+				3B2DCBBF29D6081900D57509 /* UIPlantDetail.swift */,
+				3B2DCBC129DB012100D57509 /* UILoginForm.swift */,
+				3B2DCBC729DB6EC400D57509 /* UIUtilitiesBar.swift */,
+				3B2DCBE029DC65F500D57509 /* UISignUpForm.swift */,
+				3B2DCBEC29DEFFA400D57509 /* UIPlantDetailUtility.swift */,
+			);
+			path = CustomizedUI;
+			sourceTree = "<group>";
+		};
+		3B2DCB9929D2280400D57509 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B2DCB8829D227A700D57509 /* ViewController.swift */,
+				3B2DCBBB29D607B500D57509 /* PlantDetailController.swift */,
+				3B2DCBC329DB0FED00D57509 /* LoginController.swift */,
+				3B2DCBC529DB0FFB00D57509 /* SignUpController.swift */,
+				3B2DCBEA29DE013F00D57509 /* PlantsSavedControllerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B2DCB9A29D2280C00D57509 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3B2DCBAA29D36F6200D57509 /* UIImageView_fetchImageFromURL.swift */,
+				3B2DCB9D29D2288B00D57509 /* UIView_addSubViews.swift */,
+				3B2DCB9E29D2288B00D57509 /* UIView_enableTapGestureRecognizer.swift */,
+				3B2DCBEE29E04D9C00D57509 /* UIButton_newButton.swift */,
+				3B2DCBF029E04F3400D57509 /* UILabel_newLabel.swift */,
+				3B2DCBF229E051F900D57509 /* UITextField_newTextField.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3B2DCB9B29D2281A00D57509 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3B2DCBDB29DC61B200D57509 /* Firebase */,
+				3B2DCB9C29D2282000D57509 /* API */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3B2DCB9C29D2282000D57509 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3B2DCBA629D366EB00D57509 /* API.swift */,
+				3B2DCBA829D3674600D57509 /* PlantAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3B2DCBA329D314ED00D57509 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B2DCBA429D3150500D57509 /* PlantModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B2DCBDB29DC61B200D57509 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				3B2DCBE829DCB6F400D57509 /* DatabaseManagement.swift */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +217,11 @@
 			dependencies = (
 			);
 			name = HousePlant;
+			packageProductDependencies = (
+				3B2DCBD529DC618200D57509 /* FirebaseAuth */,
+				3B2DCBD729DC618200D57509 /* FirebaseDatabase */,
+				3B2DCBD929DC618200D57509 /* FirebaseDatabaseSwift */,
+			);
 			productName = HousePlant;
 			productReference = 3B2DCB8129D227A700D57509 /* HousePlant.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +250,9 @@
 				Base,
 			);
 			mainGroup = 3B2DCB7829D227A700D57509;
+			packageReferences = (
+				3B2DCBD429DC618200D57509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3B2DCB8229D227A700D57509 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B2DCB9129D227A900D57509 /* LaunchScreen.storyboard in Resources */,
+				3B2DCBE329DC779E00D57509 /* GoogleService-Info.plist in Resources */,
 				3B2DCB8E29D227A900D57509 /* Assets.xcassets in Resources */,
 				3B2DCB8C29D227A700D57509 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +281,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2DCBE929DCB6F400D57509 /* DatabaseManagement.swift in Sources */,
+				3B2DCBA029D2288C00D57509 /* UIView_enableTapGestureRecognizer.swift in Sources */,
+				3B2DCBAB29D36F6200D57509 /* UIImageView_fetchImageFromURL.swift in Sources */,
+				3B2DCBA229D3131F00D57509 /* PlantTableViewCell.swift in Sources */,
+				3B2DCBEF29E04D9C00D57509 /* UIButton_newButton.swift in Sources */,
+				3B2DCBA529D3150500D57509 /* PlantModel.swift in Sources */,
+				3B2DCBC829DB6EC400D57509 /* UIUtilitiesBar.swift in Sources */,
+				3B2DCBB829D5EB0400D57509 /* UIPageNavigation.swift in Sources */,
+				3B2DCB9F29D2288C00D57509 /* UIView_addSubViews.swift in Sources */,
+				3B2DCBC229DB012100D57509 /* UILoginForm.swift in Sources */,
+				3B2DCBED29DEFFA400D57509 /* UIPlantDetailUtility.swift in Sources */,
+				3B2DCBE129DC65F500D57509 /* UISignUpForm.swift in Sources */,
+				3B2DCBEB29DE013F00D57509 /* PlantsSavedControllerViewController.swift in Sources */,
+				3B2DCBF129E04F3400D57509 /* UILabel_newLabel.swift in Sources */,
 				3B2DCB8929D227A700D57509 /* ViewController.swift in Sources */,
 				3B2DCB8529D227A700D57509 /* AppDelegate.swift in Sources */,
+				3B2DCBA729D366EB00D57509 /* API.swift in Sources */,
+				3B2DCBC629DB0FFB00D57509 /* SignUpController.swift in Sources */,
+				3B2DCBC429DB0FED00D57509 /* LoginController.swift in Sources */,
+				3B2DCBBC29D607B500D57509 /* PlantDetailController.swift in Sources */,
+				3B2DCBA929D3674600D57509 /* PlantAPI.swift in Sources */,
+				3B2DCBC029D6081900D57509 /* UIPlantDetail.swift in Sources */,
+				3B2DCBB129D38B7800D57509 /* Logo.swift in Sources */,
+				3B2DCBE529DC8B0A00D57509 /* Toast.swift in Sources */,
+				3B2DCBF329E051F900D57509 /* UITextField_newTextField.swift in Sources */,
 				3B2DCB8729D227A700D57509 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +522,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B2DCBD429DC618200D57509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B2DCBD529DC618200D57509 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B2DCBD429DC618200D57509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3B2DCBD729DC618200D57509 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B2DCBD429DC618200D57509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3B2DCBD929DC618200D57509 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B2DCBD429DC618200D57509 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3B2DCB7929D227A700D57509 /* Project object */;
 }
